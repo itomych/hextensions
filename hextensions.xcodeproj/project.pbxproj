@@ -19,6 +19,9 @@
 		092F31A91AB1F107007151DD /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A81AB1F107007151DD /* NSDictionary+Networking.m */; };
 		092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */; };
 		092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31B01AB1F5C0007151DD /* DetailViewController.m */; };
+		0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
+		0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0955F8E71AB31DB500D66130 /* hextensions.podspec */; };
+		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,11 @@
 		092F31AF1AB1F5C0007151DD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		092F31B01AB1F5C0007151DD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		092F31B21AB1FD2E007151DD /* HExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HExtensions.h; sourceTree = "<group>"; };
+		0955F8E41AB3133400D66130 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
+		0955F8E51AB3133400D66130 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
+		0955F8E71AB31DB500D66130 /* hextensions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hextensions.podspec; sourceTree = "<group>"; };
+		0955F8E91AB31E2D00D66130 /* AppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAppearance.h; sourceTree = "<group>"; };
+		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 		092F31661AB1ED8F007151DD = {
 			isa = PBXGroup;
 			children = (
+				0955F8E71AB31DB500D66130 /* hextensions.podspec */,
 				092F31981AB1EDA9007151DD /* hextensions */,
 				092F31711AB1ED8F007151DD /* hextensions-example */,
 				092F318B1AB1ED8F007151DD /* hextensions-exampleTests */,
@@ -101,6 +110,8 @@
 			children = (
 				092F31761AB1ED8F007151DD /* AppDelegate.h */,
 				092F31771AB1ED8F007151DD /* AppDelegate.m */,
+				0955F8E91AB31E2D00D66130 /* AppAppearance.h */,
+				0955F8EA1AB31E2D00D66130 /* AppAppearance.m */,
 				092F31791AB1ED8F007151DD /* RootViewController.h */,
 				092F317A1AB1ED8F007151DD /* RootViewController.m */,
 				092F31AF1AB1F5C0007151DD /* DetailViewController.h */,
@@ -153,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				092F31AE1AB1F418007151DD /* UIKit+HExtensions.h */,
+				0955F8E41AB3133400D66130 /* UIImage+UIColor.h */,
+				0955F8E51AB3133400D66130 /* UIImage+UIColor.m */,
 				092F31A01AB1F029007151DD /* UINavigationController+HExtension.h */,
 				092F31A11AB1F029007151DD /* UINavigationController+HExtension.m */,
 				092F31A21AB1F029007151DD /* UITableView+HElection.h */,
@@ -256,6 +269,7 @@
 				092F317E1AB1ED8F007151DD /* Main.storyboard in Resources */,
 				092F31831AB1ED8F007151DD /* LaunchScreen.xib in Resources */,
 				092F31801AB1ED8F007151DD /* Images.xcassets in Resources */,
+				0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */,
+				0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */,
 				092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */,
+				0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */,
 				092F317B1AB1ED8F007151DD /* RootViewController.m in Sources */,
 				092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */,
 				092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */,
@@ -471,6 +487,7 @@
 				092F31941AB1ED8F007151DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		092F31951AB1ED8F007151DD /* Build configuration list for PBXNativeTarget "hextensions-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +496,7 @@
 				092F31971AB1ED8F007151DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

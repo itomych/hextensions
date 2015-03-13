@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.roundedButton setBackgroundImage:[UIImage resizableImageWithColor:[UIColor brownColor] cornerRadius:5.0] forState:UIControlStateNormal];
 }
 
 - (IBAction)replaceButtonTapped:(UIBarButtonItem *)button {
