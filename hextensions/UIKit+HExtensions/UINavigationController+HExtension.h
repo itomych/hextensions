@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UINavigationController (HExtension)
 
-@property (strong, nonatomic, readonly) UIViewController *rootViewController;
+@property (nullable, strong, nonatomic, readonly) UIViewController *rootViewController;
 
 - (void)setTopViewController:(UIViewController *)controller animated:(BOOL)animated;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -12,7 +12,7 @@
 
 - (UIViewController *)rootViewController
 {
-    return [self.viewControllers firstObject];
+    return self.viewControllers.firstObject;
 }
 
 - (void)setTopViewController:(UIViewController *)controller animated:(BOOL)animated
@@ -20,7 +20,7 @@
     NSMutableArray *viewControllers = [self.viewControllers mutableCopy];
     [viewControllers removeLastObject];
     [viewControllers addObject:controller];
-    [self setViewControllers:[viewControllers copy] animated:animated];
+    [self setViewControllers:viewControllers animated:animated];
 }
 
 @end
