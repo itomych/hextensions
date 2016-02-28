@@ -22,6 +22,7 @@
 		0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
 		0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0955F8E71AB31DB500D66130 /* hextensions.podspec */; };
 		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
+		09EE5D221C821ACA0039A94B /* HESerializingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE5D211C821ACA0039A94B /* HESerializingObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,9 @@
 		0955F8E71AB31DB500D66130 /* hextensions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hextensions.podspec; sourceTree = "<group>"; };
 		0955F8E91AB31E2D00D66130 /* AppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAppearance.h; sourceTree = "<group>"; };
 		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
+		09EE5D201C821ACA0039A94B /* HESerializingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESerializingObject.h; sourceTree = "<group>"; };
+		09EE5D211C821ACA0039A94B /* HESerializingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESerializingObject.m; sourceTree = "<group>"; };
+		09EE5D231C821ADE0039A94B /* HESerializing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESerializing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				092F31B21AB1FD2E007151DD /* HExtensions.h */,
+				09EE5D1C1C821A6A0039A94B /* HESerializing */,
 				092F319F1AB1F029007151DD /* UIKit+HExtensions */,
 				092F31A61AB1F107007151DD /* NSFoundation+Networking */,
 			);
@@ -183,6 +188,16 @@
 				092F31A81AB1F107007151DD /* NSDictionary+Networking.m */,
 			);
 			path = "NSFoundation+Networking";
+			sourceTree = "<group>";
+		};
+		09EE5D1C1C821A6A0039A94B /* HESerializing */ = {
+			isa = PBXGroup;
+			children = (
+				09EE5D231C821ADE0039A94B /* HESerializing.h */,
+				09EE5D201C821ACA0039A94B /* HESerializingObject.h */,
+				09EE5D211C821ACA0039A94B /* HESerializingObject.m */,
+			);
+			path = HESerializing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */,
+				09EE5D221C821ACA0039A94B /* HESerializingObject.m in Sources */,
 				0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */,
 				092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */,
 				0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */,
