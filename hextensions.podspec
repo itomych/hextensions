@@ -3,6 +3,7 @@ Pod::Spec.new do |spec|
     spec.version        = '1.0'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
+    spec.homepage       = 'https://bitbucket.org/itomych'
     spec.author         = { 'How Else' => 'elseisgone@gmail.com' }
     spec.source         = { :git => 'https://bitbucket.org/itomych/hextensions.git' }
     spec.requires_arc   = true
