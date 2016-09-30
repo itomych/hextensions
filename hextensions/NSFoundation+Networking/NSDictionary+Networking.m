@@ -39,4 +39,30 @@
     return nil;
 }
 
+- (NSDictionary *)dictionaryObjectForKey:(id)aKey
+{
+    id object = [self objectForKey:aKey];
+    if ([object isKindOfClass:[NSDictionary class]]) {
+        return object;
+    }
+    return nil;
+}
+
+- (NSArray *)arrayObjectForKey:(id)aKey
+{
+    id object = [self objectForKey:aKey];
+    if ([object isKindOfClass:[NSArray class]]) {
+        return object;
+    }
+    return nil;
+}
+- (NSNumber *)numberObjectForKey:(id)aKey
+{
+    id object = [self objectForKey:aKey];
+    if ([object isKindOfClass:[NSNumber class]]) {
+        return object;
+    }
+    return nil;
+}
+
 @end

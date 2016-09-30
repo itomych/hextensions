@@ -16,4 +16,10 @@
 
 - (NSString *)stringValueForKey:(id)aKey; // returns object's string value string value for key
 
+- (NSDictionary *)dictionaryObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSDictionary
+
+- (NSArray *)arrayObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSArray
+
+- (NSNumber *)numberObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSNumber
+
 @end
