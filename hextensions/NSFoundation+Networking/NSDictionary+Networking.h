@@ -14,7 +14,7 @@
 
 - (NSString *)stringObjectForKey:(id)aKey; // returns nil if object is not kind of class NSString
 
-- (NSString *)stringValueForKey:(id)aKey; // returns object's string value string value for key
+- (NSString *)stringValueForKey:(id)aKey; // returns object's string value for key
 
 - (NSDictionary *)dictionaryObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSDictionary
 
