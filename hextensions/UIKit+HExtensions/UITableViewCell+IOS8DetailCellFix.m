@@ -31,7 +31,10 @@
 
 + (void)load
 {
-    if ([UIDevice currentDevice].systemVersion.intValue >= 8)
+    /*
+     * It appears this bug is fixed in iOS9.
+     */
+    if ([UIDevice currentDevice].systemVersion.intValue == 8)
     {
         Method original = class_getInstanceMethod(self, @selector(layoutSubviews));
         Method replace  = class_getInstanceMethod(self, @selector(_detailfix_layoutSubviews));
