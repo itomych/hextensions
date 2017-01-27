@@ -22,6 +22,7 @@
 		0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
 		0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0955F8E71AB31DB500D66130 /* hextensions.podspec */; };
 		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
+		09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		0955F8E71AB31DB500D66130 /* hextensions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hextensions.podspec; sourceTree = "<group>"; };
 		0955F8E91AB31E2D00D66130 /* AppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAppearance.h; sourceTree = "<group>"; };
 		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
+		09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HENib.h"; sourceTree = "<group>"; };
+		09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HENib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				092F31A31AB1F029007151DD /* UITableView+HElection.m */,
 				092F31AA1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.h */,
 				092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */,
+				09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */,
+				09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */,
 			);
 			path = "UIKit+HExtensions";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */,
 				092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */,
 				0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */,
 				092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */,
