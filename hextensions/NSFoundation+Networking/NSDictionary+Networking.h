@@ -10,16 +10,16 @@
 
 @interface NSDictionary (Networking)
 
-- (id)validObjectForKey:(id)aKey; // returns nil if object is kind of class NSNull
+- (id)he_objectForKey:(id)aKey; // returns nil if object is kind of class NSNull
 
-- (NSString *)stringObjectForKey:(id)aKey; // returns nil if object is not kind of class NSString
+- (NSString *)he_stringObjectForKey:(id)aKey; // returns nil if object is not kind of class NSString
 
-- (NSString *)stringValueForKey:(id)aKey; // returns object's string value for key
+- (NSString *)he_stringValueForKey:(id)aKey; // returns object's string value for key
 
-- (NSDictionary *)dictionaryObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSDictionary
+- (NSDictionary *)he_dictionaryObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSDictionary
 
-- (NSArray *)arrayObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSArray
+- (NSArray *)he_arrayObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSArray
 
-- (NSNumber *)numberObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSNumber
+- (NSNumber *)he_numberObjectForKey:(id)aKey; // returns nil if object isn't kind of class NSNumber
 
 @end

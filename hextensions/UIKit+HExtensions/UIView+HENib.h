@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (HENib)
 
-+ (instancetype)viewFromNib;
++ (instancetype)he_viewFromNib;
 
-+ (instancetype)viewFromNibWithName:(NSString *)name;
++ (instancetype)he_viewFromNibWithName:(NSString *)name;
 
 @end
 

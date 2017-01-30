@@ -37,12 +37,12 @@
     if ([UIDevice currentDevice].systemVersion.intValue == 8)
     {
         Method original = class_getInstanceMethod(self, @selector(layoutSubviews));
-        Method replace  = class_getInstanceMethod(self, @selector(_detailfix_layoutSubviews));
+        Method replace  = class_getInstanceMethod(self, @selector(he_detailfix_layoutSubviews));
         method_exchangeImplementations(original, replace);
     }
 }
 
-- (void)_detailfix_layoutSubviews
+- (void)he_detailfix_layoutSubviews
 {
     /*
      * UITableViewCell seems to return nil if the cell type does not have a detail.
@@ -55,7 +55,7 @@
         [self.contentView addSubview:detailLabel];
     }
     
-    [self _detailfix_layoutSubviews];
+    [self he_detailfix_layoutSubviews];
 }
 
 @end

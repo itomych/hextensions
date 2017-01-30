@@ -19,14 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.roundedButton setBackgroundImage:[UIImage resizableImageWithColor:[UIColor brownColor] cornerRadius:5.0] forState:UIControlStateNormal];
+    [self.roundedButton setBackgroundImage:[UIImage he_resizableImageWithColor:[UIColor brownColor] cornerRadius:5.0] forState:UIControlStateNormal];
 }
 
 - (IBAction)replaceButtonTapped:(UIBarButtonItem *)button {
     UIViewController *controller = [[UIViewController alloc] init];
     controller.title = @"New View Controller";
     controller.view.backgroundColor = [UIColor redColor];
-    [self.navigationController setTopViewController:controller animated:YES];
+    [self.navigationController he_setTopViewController:controller animated:YES];
 }
 
 @end

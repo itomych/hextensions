@@ -10,12 +10,12 @@
 
 @implementation UINavigationController (HExtension)
 
-- (UIViewController *)rootViewController
+- (UIViewController *)he_rootViewController
 {
     return self.viewControllers.firstObject;
 }
 
-- (void)setTopViewController:(UIViewController *)controller animated:(BOOL)animated
+- (void)he_setTopViewController:(UIViewController *)controller animated:(BOOL)animated
 {
     NSMutableArray *viewControllers = [self.viewControllers mutableCopy];
     [viewControllers removeLastObject];

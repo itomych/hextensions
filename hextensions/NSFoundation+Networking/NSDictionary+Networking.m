@@ -10,7 +10,7 @@
 
 @implementation NSDictionary (Networking)
 
-- (id)validObjectForKey:(id)aKey
+- (id)he_objectForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSNull class]]) {
@@ -19,7 +19,7 @@
     return object;
 }
 
-- (NSString *)stringObjectForKey:(id)aKey
+- (NSString *)he_stringObjectForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSString class]]) {
@@ -28,7 +28,7 @@
     return nil;
 }
 
-- (NSString *)stringValueForKey:(id)aKey
+- (NSString *)he_stringValueForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSString class]]) {
@@ -39,7 +39,7 @@
     return nil;
 }
 
-- (NSDictionary *)dictionaryObjectForKey:(id)aKey
+- (NSDictionary *)he_dictionaryObjectForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSDictionary class]]) {
@@ -48,7 +48,7 @@
     return nil;
 }
 
-- (NSArray *)arrayObjectForKey:(id)aKey
+- (NSArray *)he_arrayObjectForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSArray class]]) {
@@ -56,7 +56,7 @@
     }
     return nil;
 }
-- (NSNumber *)numberObjectForKey:(id)aKey
+- (NSNumber *)he_numberObjectForKey:(id)aKey
 {
     id object = [self objectForKey:aKey];
     if ([object isKindOfClass:[NSNumber class]]) {

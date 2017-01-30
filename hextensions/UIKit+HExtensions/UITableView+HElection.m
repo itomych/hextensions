@@ -10,7 +10,7 @@
 
 @implementation UITableView (HElection)
 
-- (void)selectAllRowsAnimated:(BOOL)animated
+- (void)he_selectAllRowsAnimated:(BOOL)animated
 {
     for (NSInteger section = 0; section < self.numberOfSections; ++section) {
         for (NSInteger row = 0; row < [self numberOfRowsInSection:section]; ++row) {
@@ -19,19 +19,19 @@
     }
 }
 
-- (void)selectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated
+- (void)he_selectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated
 {
     for (NSIndexPath *indexPath in indexPaths) {
         [self selectRowAtIndexPath:indexPath animated:animated scrollPosition:UITableViewScrollPositionNone];
     }
 }
 
-- (void)deselectAllRowsAnimated:(BOOL)animated
+- (void)he_deselectAllRowsAnimated:(BOOL)animated
 {
-    [self deselectRowsAtIndexPaths:self.indexPathsForSelectedRows animated:animated];
+    [self he_deselectRowsAtIndexPaths:self.indexPathsForSelectedRows animated:animated];
 }
 
-- (void)deselectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated
+- (void)he_deselectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated
 {
     for (NSIndexPath *indexPath in indexPaths) {
         [self deselectRowAtIndexPath:indexPath animated:animated];

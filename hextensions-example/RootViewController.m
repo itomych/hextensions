@@ -21,11 +21,11 @@
 }
 
 - (IBAction)selectAllButtonTapped:(UIBarButtonItem *)button {
-    [self.tableView selectAllRowsAnimated:YES];
+    [self.tableView he_selectAllRowsAnimated:YES];
 }
 
 - (IBAction)deselectAllButtonTapped:(UIBarButtonItem *)button {
-    [self.tableView deselectAllRowsAnimated:YES];
+    [self.tableView he_deselectAllRowsAnimated:YES];
 }
 
 @end

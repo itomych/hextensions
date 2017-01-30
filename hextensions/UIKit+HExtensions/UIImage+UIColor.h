@@ -10,12 +10,12 @@
 
 @interface UIImage (UIColor)
 
-+ (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)he_imageWithColor:(UIColor *)color;
 
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
++ (UIImage *)he_imageWithColor:(UIColor *)color size:(CGSize)size;
 
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius;
++ (UIImage *)he_imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius;
 
-+ (UIImage *)resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius;
++ (UIImage *)he_resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius;
 
 @end

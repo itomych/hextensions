@@ -14,8 +14,8 @@
 
 + (void)initializeDefaultAppearance
 {
-    UIImage *shadowImage  = [UIImage imageWithColor:[UIColor redColor]];
-    UIImage *backgroundImage = [UIImage imageWithColor:[UIColor orangeColor]];
+    UIImage *shadowImage  = [UIImage he_imageWithColor:[UIColor redColor]];
+    UIImage *backgroundImage = [UIImage he_imageWithColor:[UIColor orangeColor]];
     
     UINavigationBar *navigationBar = [UINavigationBar appearance];
     

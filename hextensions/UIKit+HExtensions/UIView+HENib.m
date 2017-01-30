@@ -10,11 +10,11 @@
 
 @implementation UIView (HENib)
 
-+ (instancetype)viewFromNib {
-    return [self viewFromNibWithName:NSStringFromClass(self)];
++ (instancetype)he_viewFromNib {
+    return [self he_viewFromNibWithName:NSStringFromClass(self)];
 }
 
-+ (instancetype)viewFromNibWithName:(NSString *)name {
++ (instancetype)he_viewFromNibWithName:(NSString *)name {
     UIView *view = [[[NSBundle mainBundle] loadNibNamed:name owner:self options:nil] firstObject];
     NSAssert(view != nil, @"Failed attempt to load view from nib with name %@", name);
     NSAssert([view isKindOfClass:self], @"View %@ is not kind of class %@", view, self);

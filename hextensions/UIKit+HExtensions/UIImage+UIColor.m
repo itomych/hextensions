@@ -10,12 +10,12 @@
 
 @implementation UIImage (UIColor)
 
-+ (UIImage *)imageWithColor:(UIColor *)color
++ (UIImage *)he_imageWithColor:(UIColor *)color
 {
-    return [self imageWithColor:color size:CGSizeMake(1.0, 1.0)];
+    return [self he_imageWithColor:color size:CGSizeMake(1.0, 1.0)];
 }
 
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size
++ (UIImage *)he_imageWithColor:(UIColor *)color size:(CGSize)size
 {
     UIGraphicsBeginImageContext(size);
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -29,7 +29,7 @@
     return image;
 }
 
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius
++ (UIImage *)he_imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius
 {
     CGRect rect = { .origin = CGPointZero, .size = size };
     
@@ -49,11 +49,11 @@
     return image;
 }
 
-+ (UIImage *)resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius
++ (UIImage *)he_resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius
 {
     CGFloat minEdgeSize = cornerRadius * 2 + 1.0;
     
-    UIImage *image = [self imageWithColor:color size:CGSizeMake(minEdgeSize, minEdgeSize) cornerRadius:cornerRadius];
+    UIImage *image = [self he_imageWithColor:color size:CGSizeMake(minEdgeSize, minEdgeSize) cornerRadius:cornerRadius];
     
     return [image resizableImageWithCapInsets:UIEdgeInsetsMake(cornerRadius, cornerRadius, cornerRadius, cornerRadius)];
 }

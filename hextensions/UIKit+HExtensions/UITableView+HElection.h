@@ -10,12 +10,12 @@
 
 @interface UITableView (HElection)
 
-- (void)selectAllRowsAnimated:(BOOL)animated;
+- (void)he_selectAllRowsAnimated:(BOOL)animated;
 
-- (void)selectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated;
+- (void)he_selectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated;
 
-- (void)deselectAllRowsAnimated:(BOOL)animated;
+- (void)he_deselectAllRowsAnimated:(BOOL)animated;
 
-- (void)deselectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated;
+- (void)he_deselectRowsAtIndexPaths:(NSArray *)indexPaths animated:(BOOL)animated;
 
 @end
