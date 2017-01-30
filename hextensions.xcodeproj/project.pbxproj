@@ -22,6 +22,7 @@
 		0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
 		0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0955F8E71AB31DB500D66130 /* hextensions.podspec */; };
 		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
+		09B197331E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */; };
 		09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		0955F8E71AB31DB500D66130 /* hextensions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hextensions.podspec; sourceTree = "<group>"; };
 		0955F8E91AB31E2D00D66130 /* AppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAppearance.h; sourceTree = "<group>"; };
 		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
+		09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HEJavaScriptContext.h"; sourceTree = "<group>"; };
+		09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HEJavaScriptContext.m"; sourceTree = "<group>"; };
 		09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HENib.h"; sourceTree = "<group>"; };
 		09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HENib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +180,8 @@
 				092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */,
 				09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */,
 				09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */,
+				09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */,
+				09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */,
 			);
 			path = "UIKit+HExtensions";
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */,
 				092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */,
 				092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */,
+				09B197331E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m in Sources */,
 				092F31A91AB1F107007151DD /* NSDictionary+Networking.m in Sources */,
 				092F31751AB1ED8F007151DD /* main.m in Sources */,
 			);

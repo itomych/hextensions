@@ -10,3 +10,4 @@
 #import "UIImage+UIColor.h"
 #import "UITableView+HElection.h"
 #import "UIView+HENib.h"
+#import "UIWebView+HEJavaScriptContext.h"
