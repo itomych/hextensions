@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIImage (UIColor)
 
 + (UIImage *)he_imageWithColor:(UIColor *)color;
@@ -19,3 +21,5 @@
 + (UIImage *)he_resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius;
 
 @end
+
+NS_ASSUME_NONNULL_END
