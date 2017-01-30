@@ -23,4 +23,20 @@
     [self setViewControllers:viewControllers animated:animated];
 }
 
+- (void)he_pushViewController:(UIViewController *)viewController fromViewController:(UIViewController *)fromViewController animated:(BOOL)animated
+{
+    NSMutableArray *viewControllers = [self.viewControllers mutableCopy];
+    NSUInteger numberOfControllers = viewControllers.count;
+    NSUInteger currentIndex = [viewControllers indexOfObject:fromViewController];
+    
+    if (currentIndex != NSNotFound && currentIndex < numberOfControllers) {
+        NSUInteger nextIndex = currentIndex + 1;
+        NSRange range = NSMakeRange(nextIndex, numberOfControllers - nextIndex);
+        [viewControllers removeObjectsInRange:range];
+    }
+    
+    [viewControllers addObject:viewController];
+    [self setViewControllers:viewControllers animated:animated];
+}
+
 @end

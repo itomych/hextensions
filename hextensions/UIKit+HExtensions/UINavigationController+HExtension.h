@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)he_setTopViewController:(UIViewController *)controller animated:(BOOL)animated;
 
+- (void)he_pushViewController:(UIViewController *)viewController fromViewController:(UIViewController *)fromViewController animated:(BOOL)animated;
+
 @end
 
 NS_ASSUME_NONNULL_END
