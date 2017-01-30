@@ -46,12 +46,12 @@ Pod::Spec.new do |spec|
     spec.subspec 'UIKit+HExtensions' do |subspec|
         subspec.source_files = 'hextensions/UIKit+HExtensions/UIKit+HExtensions.h'
         subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIKit+HExtensions.h'
-        subspec.dependency 'UIImage+UIColor'
-        subspec.dependency 'UINavigationController+HExtension'
-        subspec.dependency 'UITableView+HElection'
-        subspec.dependency 'UITableViewCell+IOS8DetailCellFix'
-        subspec.dependency 'UIView+HENib'
-        subspec.dependency 'UIWebView+HEJavaScriptContext'
+        subspec.dependency 'hextensions/UIImage+UIColor'
+        subspec.dependency 'hextensions/UINavigationController+HExtension'
+        subspec.dependency 'hextensions/UITableView+HElection'
+        subspec.dependency 'hextensions/UITableViewCell+IOS8DetailCellFix'
+        subspec.dependency 'hextensions/UIView+HENib'
+        subspec.dependency 'hextensions/UIWebView+HEJavaScriptContext'
     end
 
     spec.subspec 'NSFoundation+Networking' do |subspec|
