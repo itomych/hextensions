@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'hextensions'
-    spec.version        = '2.0'
+    spec.version        = '2.1'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
     spec.homepage       = 'https://bitbucket.org/itomych'
@@ -33,6 +33,11 @@ Pod::Spec.new do |spec|
         subspec.public_header_files = 'hextensions/UIKit+HExtensions/UITableViewCell+IOS8DetailCellFix.h'
     end
 
+    spec.subspec 'UIView+HEHairline' do |subspec|
+        subspec.source_files = 'hextensions/UIKit+HExtensions/UIView+HEHairline.{h,m}'
+        subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIView+HEHairline.h'
+    end
+
     spec.subspec 'UIView+HENib' do |subspec|
         subspec.source_files = 'hextensions/UIKit+HExtensions/UIView+HENib.{h,m}'
         subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIView+HENib.h'
@@ -50,6 +55,7 @@ Pod::Spec.new do |spec|
         subspec.dependency 'hextensions/UINavigationController+HExtension'
         subspec.dependency 'hextensions/UITableView+HElection'
         subspec.dependency 'hextensions/UITableViewCell+IOS8DetailCellFix'
+        subspec.dependency 'hextensions/UIView+HEHairline'
         subspec.dependency 'hextensions/UIView+HENib'
         subspec.dependency 'hextensions/UIWebView+HEJavaScriptContext'
     end
