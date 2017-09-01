@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092B71551F59B4A80005AD05 /* UIView+HEHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B71541F59B4A80005AD05 /* UIView+HEHairline.m */; };
 		092F31751AB1ED8F007151DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31741AB1ED8F007151DD /* main.m */; };
 		092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31771AB1ED8F007151DD /* AppDelegate.m */; };
 		092F317B1AB1ED8F007151DD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F317A1AB1ED8F007151DD /* RootViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092B71531F59B4A80005AD05 /* UIView+HEHairline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HEHairline.h"; sourceTree = "<group>"; };
+		092B71541F59B4A80005AD05 /* UIView+HEHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HEHairline.m"; sourceTree = "<group>"; };
 		092F316F1AB1ED8F007151DD /* hextensions-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hextensions-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		092F31731AB1ED8F007151DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092F31741AB1ED8F007151DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				092F31A31AB1F029007151DD /* UITableView+HElection.m */,
 				092F31AA1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.h */,
 				092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */,
+				092B71531F59B4A80005AD05 /* UIView+HEHairline.h */,
+				092B71541F59B4A80005AD05 /* UIView+HEHairline.m */,
 				09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */,
 				09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */,
 				09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */,
@@ -300,6 +305,7 @@
 				09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */,
 				092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */,
 				0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */,
+				092B71551F59B4A80005AD05 /* UIView+HEHairline.m in Sources */,
 				092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */,
 				0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */,
 				092F317B1AB1ED8F007151DD /* RootViewController.m in Sources */,

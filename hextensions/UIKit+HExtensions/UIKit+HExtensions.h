@@ -9,5 +9,6 @@
 #import "UINavigationController+HExtension.h"
 #import "UIImage+UIColor.h"
 #import "UITableView+HElection.h"
+#import "UIView+HEHairline.h"
 #import "UIView+HENib.h"
 #import "UIWebView+HEJavaScriptContext.h"
