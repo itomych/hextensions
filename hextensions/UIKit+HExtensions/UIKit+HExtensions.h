@@ -7,6 +7,7 @@
 //
 
 #import "UINavigationController+HExtension.h"
+#import "UIImage+CALayer.h"
 #import "UIImage+UIColor.h"
 #import "UITableView+HElection.h"
 #import "UIView+HEHairline.h"

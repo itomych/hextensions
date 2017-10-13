@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092309961F90C5830088A1A9 /* UIImage+CALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 092309951F90C5830088A1A9 /* UIImage+CALayer.m */; };
 		092B71551F59B4A80005AD05 /* UIView+HEHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B71541F59B4A80005AD05 /* UIView+HEHairline.m */; };
 		092F31751AB1ED8F007151DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31741AB1ED8F007151DD /* main.m */; };
 		092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31771AB1ED8F007151DD /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092309941F90C5830088A1A9 /* UIImage+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CALayer.h"; sourceTree = "<group>"; };
+		092309951F90C5830088A1A9 /* UIImage+CALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CALayer.m"; sourceTree = "<group>"; };
 		092B71531F59B4A80005AD05 /* UIView+HEHairline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HEHairline.h"; sourceTree = "<group>"; };
 		092B71541F59B4A80005AD05 /* UIView+HEHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HEHairline.m"; sourceTree = "<group>"; };
 		092F316F1AB1ED8F007151DD /* hextensions-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hextensions-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				092F31AE1AB1F418007151DD /* UIKit+HExtensions.h */,
+				092309941F90C5830088A1A9 /* UIImage+CALayer.h */,
+				092309951F90C5830088A1A9 /* UIImage+CALayer.m */,
 				0955F8E41AB3133400D66130 /* UIImage+UIColor.h */,
 				0955F8E51AB3133400D66130 /* UIImage+UIColor.m */,
 				092F31A01AB1F029007151DD /* UINavigationController+HExtension.h */,
@@ -313,6 +318,7 @@
 				092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */,
 				092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */,
 				09B197331E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m in Sources */,
+				092309961F90C5830088A1A9 /* UIImage+CALayer.m in Sources */,
 				092F31A91AB1F107007151DD /* NSDictionary+Networking.m in Sources */,
 				092F31751AB1ED8F007151DD /* main.m in Sources */,
 			);

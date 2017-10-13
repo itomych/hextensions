@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'hextensions'
-    spec.version        = '2.1'
+    spec.version        = '2.2'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
     spec.homepage       = 'https://bitbucket.org/itomych'
@@ -12,6 +12,11 @@ Pod::Spec.new do |spec|
 
     spec.source_files = 'hextensions/HExtensions.h'
     spec.public_header_files = 'hextensions/HExtensions.h'
+
+    spec.subspec 'UIImage+CALayer' do |subspec|
+        subspec.source_files = 'hextensions/UIKit+HExtensions/UIImage+CALayer.{h,m}'
+        subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIImage+CALayer.h'
+    end
 
     spec.subspec 'UIImage+UIColor' do |subspec|
         subspec.source_files = 'hextensions/UIKit+HExtensions/UIImage+UIColor.{h,m}'
@@ -51,6 +56,7 @@ Pod::Spec.new do |spec|
     spec.subspec 'UIKit+HExtensions' do |subspec|
         subspec.source_files = 'hextensions/UIKit+HExtensions/UIKit+HExtensions.h'
         subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIKit+HExtensions.h'
+        subspec.dependency 'hextensions/UIImage+CALayer'
         subspec.dependency 'hextensions/UIImage+UIColor'
         subspec.dependency 'hextensions/UINavigationController+HExtension'
         subspec.dependency 'hextensions/UITableView+HElection'
