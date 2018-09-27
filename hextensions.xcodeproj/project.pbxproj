@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		092309961F90C5830088A1A9 /* UIImage+CALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 092309951F90C5830088A1A9 /* UIImage+CALayer.m */; };
-		092B71551F59B4A80005AD05 /* UIView+HEHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B71541F59B4A80005AD05 /* UIView+HEHairline.m */; };
 		092F31751AB1ED8F007151DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31741AB1ED8F007151DD /* main.m */; };
 		092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31771AB1ED8F007151DD /* AppDelegate.m */; };
 		092F317B1AB1ED8F007151DD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F317A1AB1ED8F007151DD /* RootViewController.m */; };
@@ -16,16 +14,19 @@
 		092F31801AB1ED8F007151DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F317F1AB1ED8F007151DD /* Images.xcassets */; };
 		092F31831AB1ED8F007151DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092F31811AB1ED8F007151DD /* LaunchScreen.xib */; };
 		092F318F1AB1ED8F007151DD /* hextensions_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F318E1AB1ED8F007151DD /* hextensions_exampleTests.m */; };
-		092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A11AB1F029007151DD /* UINavigationController+HExtension.m */; };
-		092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A31AB1F029007151DD /* UITableView+HElection.m */; };
-		092F31A91AB1F107007151DD /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A81AB1F107007151DD /* NSDictionary+Networking.m */; };
-		092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */; };
 		092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31B01AB1F5C0007151DD /* DetailViewController.m */; };
-		0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
-		0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0955F8E71AB31DB500D66130 /* hextensions.podspec */; };
 		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
-		09B197331E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */; };
-		09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */; };
+		098A980D215D236600D22E8A /* UIImage+CALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 092309951F90C5830088A1A9 /* UIImage+CALayer.m */; };
+		098A980E215D236600D22E8A /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
+		098A980F215D236600D22E8A /* UINavigationController+HExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A11AB1F029007151DD /* UINavigationController+HExtension.m */; };
+		098A9810215D236600D22E8A /* UITableView+HElection.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A31AB1F029007151DD /* UITableView+HElection.m */; };
+		098A9811215D236600D22E8A /* UITableViewCell+IOS8DetailCellFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31AB1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m */; };
+		098A9812215D236600D22E8A /* UIView+HEHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B71541F59B4A80005AD05 /* UIView+HEHairline.m */; };
+		098A9813215D236600D22E8A /* UIView+HENib.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */; };
+		098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */; };
+		098A9815215D236600D22E8A /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A81AB1F107007151DD /* NSDictionary+Networking.m */; };
+		098A9819215D239B00D22E8A /* libhextensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098A9804215D229700D22E8A /* libhextensions.a */; };
+		098A981A215D246900D22E8A /* HExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 092F31B21AB1FD2E007151DD /* HExtensions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,27 @@
 			remoteGlobalIDString = 092F316E1AB1ED8F007151DD;
 			remoteInfo = "hextensions-example";
 		};
+		098A9816215D238F00D22E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092F31671AB1ED8F007151DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 098A9803215D229700D22E8A;
+			remoteInfo = hextensions;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		098A9802215D229700D22E8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				098A981A215D246900D22E8A /* HExtensions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		092309941F90C5830088A1A9 /* UIImage+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CALayer.h"; sourceTree = "<group>"; };
@@ -73,6 +94,7 @@
 		0955F8E71AB31DB500D66130 /* hextensions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hextensions.podspec; sourceTree = "<group>"; };
 		0955F8E91AB31E2D00D66130 /* AppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAppearance.h; sourceTree = "<group>"; };
 		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
+		098A9804215D229700D22E8A /* libhextensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhextensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HEJavaScriptContext.h"; sourceTree = "<group>"; };
 		09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HEJavaScriptContext.m"; sourceTree = "<group>"; };
 		09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HENib.h"; sourceTree = "<group>"; };
@@ -84,10 +106,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098A9819215D239B00D22E8A /* libhextensions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		092F31851AB1ED8F007151DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098A9801215D229700D22E8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,6 +135,7 @@
 				092F31711AB1ED8F007151DD /* hextensions-example */,
 				092F318B1AB1ED8F007151DD /* hextensions-exampleTests */,
 				092F31701AB1ED8F007151DD /* Products */,
+				098A9818215D239B00D22E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +144,7 @@
 			children = (
 				092F316F1AB1ED8F007151DD /* hextensions-example.app */,
 				092F31881AB1ED8F007151DD /* hextensions-exampleTests.xctest */,
+				098A9804215D229700D22E8A /* libhextensions.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +237,13 @@
 			path = "NSFoundation+Networking";
 			sourceTree = "<group>";
 		};
+		098A9818215D239B00D22E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,6 +258,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				098A9817215D238F00D22E8A /* PBXTargetDependency */,
 			);
 			name = "hextensions-example";
 			productName = "hextensions-example";
@@ -243,6 +283,23 @@
 			productReference = 092F31881AB1ED8F007151DD /* hextensions-exampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		098A9803215D229700D22E8A /* hextensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098A980C215D229700D22E8A /* Build configuration list for PBXNativeTarget "hextensions" */;
+			buildPhases = (
+				098A9800215D229700D22E8A /* Sources */,
+				098A9801215D229700D22E8A /* Frameworks */,
+				098A9802215D229700D22E8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hextensions;
+			productName = hextensions;
+			productReference = 098A9804215D229700D22E8A /* libhextensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,10 +312,15 @@
 				TargetAttributes = {
 					092F316E1AB1ED8F007151DD = {
 						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Automatic;
 					};
 					092F31871AB1ED8F007151DD = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 092F316E1AB1ED8F007151DD;
+					};
+					098A9803215D229700D22E8A = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -275,6 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				098A9803215D229700D22E8A /* hextensions */,
 				092F316E1AB1ED8F007151DD /* hextensions-example */,
 				092F31871AB1ED8F007151DD /* hextensions-exampleTests */,
 			);
@@ -289,7 +352,6 @@
 				092F317E1AB1ED8F007151DD /* Main.storyboard in Resources */,
 				092F31831AB1ED8F007151DD /* LaunchScreen.xib in Resources */,
 				092F31801AB1ED8F007151DD /* Images.xcassets in Resources */,
-				0955F8E81AB31DB500D66130 /* hextensions.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,19 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CFF25D1E3BA75900B2CDF1 /* UIView+HENib.m in Sources */,
-				092F31A41AB1F029007151DD /* UINavigationController+HExtension.m in Sources */,
 				0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */,
-				092B71551F59B4A80005AD05 /* UIView+HEHairline.m in Sources */,
-				092F31A51AB1F029007151DD /* UITableView+HElection.m in Sources */,
-				0955F8E61AB3133400D66130 /* UIImage+UIColor.m in Sources */,
 				092F317B1AB1ED8F007151DD /* RootViewController.m in Sources */,
 				092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */,
-				092F31AC1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.m in Sources */,
 				092F31781AB1ED8F007151DD /* AppDelegate.m in Sources */,
-				09B197331E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m in Sources */,
-				092309961F90C5830088A1A9 /* UIImage+CALayer.m in Sources */,
-				092F31A91AB1F107007151DD /* NSDictionary+Networking.m in Sources */,
 				092F31751AB1ED8F007151DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +385,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		098A9800215D229700D22E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098A980D215D236600D22E8A /* UIImage+CALayer.m in Sources */,
+				098A980E215D236600D22E8A /* UIImage+UIColor.m in Sources */,
+				098A980F215D236600D22E8A /* UINavigationController+HExtension.m in Sources */,
+				098A9810215D236600D22E8A /* UITableView+HElection.m in Sources */,
+				098A9811215D236600D22E8A /* UITableViewCell+IOS8DetailCellFix.m in Sources */,
+				098A9812215D236600D22E8A /* UIView+HEHairline.m in Sources */,
+				098A9813215D236600D22E8A /* UIView+HENib.m in Sources */,
+				098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */,
+				098A9815215D236600D22E8A /* NSDictionary+Networking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -339,6 +408,11 @@
 			isa = PBXTargetDependency;
 			target = 092F316E1AB1ED8F007151DD /* hextensions-example */;
 			targetProxy = 092F31891AB1ED8F007151DD /* PBXContainerItemProxy */;
+		};
+		098A9817215D238F00D22E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 098A9803215D229700D22E8A /* hextensions */;
+			targetProxy = 098A9816215D238F00D22E8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,9 +553,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "hextensions-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.howelse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,9 +569,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "hextensions-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.howelse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,6 +616,28 @@
 			};
 			name = Release;
 		};
+		098A980A215D229700D22E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		098A980B215D229700D22E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,6 +664,15 @@
 			buildConfigurations = (
 				092F31961AB1ED8F007151DD /* Debug */,
 				092F31971AB1ED8F007151DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098A980C215D229700D22E8A /* Build configuration list for PBXNativeTarget "hextensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098A980A215D229700D22E8A /* Debug */,
+				098A980B215D229700D22E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
