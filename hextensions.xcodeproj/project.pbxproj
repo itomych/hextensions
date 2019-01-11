@@ -27,6 +27,7 @@
 		098A9815215D236600D22E8A /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A81AB1F107007151DD /* NSDictionary+Networking.m */; };
 		098A9819215D239B00D22E8A /* libhextensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098A9804215D229700D22E8A /* libhextensions.a */; };
 		098A981A215D246900D22E8A /* HExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 092F31B21AB1FD2E007151DD /* HExtensions.h */; };
+		09F5A2A521E8C11600153AD3 /* UITextField+HECursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A2A421E8C11600153AD3 /* UITextField+HECursor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HEJavaScriptContext.m"; sourceTree = "<group>"; };
 		09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HENib.h"; sourceTree = "<group>"; };
 		09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HENib.m"; sourceTree = "<group>"; };
+		09F5A2A321E8C11600153AD3 /* UITextField+HECursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+HECursor.h"; sourceTree = "<group>"; };
+		09F5A2A421E8C11600153AD3 /* UITextField+HECursor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HECursor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,8 @@
 				092B71541F59B4A80005AD05 /* UIView+HEHairline.m */,
 				09CFF25B1E3BA75900B2CDF1 /* UIView+HENib.h */,
 				09CFF25C1E3BA75900B2CDF1 /* UIView+HENib.m */,
+				09F5A2A321E8C11600153AD3 /* UITextField+HECursor.h */,
+				09F5A2A421E8C11600153AD3 /* UITextField+HECursor.m */,
 				09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */,
 				09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */,
 			);
@@ -398,6 +403,7 @@
 				098A9813215D236600D22E8A /* UIView+HENib.m in Sources */,
 				098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */,
 				098A9815215D236600D22E8A /* NSDictionary+Networking.m in Sources */,
+				09F5A2A521E8C11600153AD3 /* UITextField+HECursor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

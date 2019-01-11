@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'hextensions'
-    spec.version        = '2.2'
+    spec.version        = '2.3'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
     spec.homepage       = 'https://bitbucket.org/itomych'
@@ -46,6 +46,11 @@ Pod::Spec.new do |spec|
     spec.subspec 'UIView+HENib' do |subspec|
         subspec.source_files = 'hextensions/UIKit+HExtensions/UIView+HENib.{h,m}'
         subspec.public_header_files = 'hextensions/UIKit+HExtensions/UIView+HENib.h'
+    end
+
+    spec.subspec 'UITextField+HECursor' do |subspec|
+        subspec.source_files = 'hextensions/UIKit+HExtensions/UITextField+HECursor.{h,m}'
+        subspec.public_header_files = 'hextensions/UIKit+HExtensions/UITextField+HECursor.h'
     end
 
     spec.subspec 'UIWebView+HEJavaScriptContext' do |subspec|
