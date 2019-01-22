@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIWebView (HEJavaScriptContext)
 
-- (void)he_defineJSFunction:(NSString *)name block:(void (^)(void))block;
+- (void)he_defineJSFunction:(NSString *)name block:(void (^)(void))block API_AVAILABLE(macos(10.8), ios(6.0), watchos(2.0), tvos(9.0));
 
 @end
 

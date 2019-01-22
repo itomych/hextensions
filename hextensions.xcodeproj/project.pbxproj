@@ -65,6 +65,7 @@
 /* Begin PBXFileReference section */
 		091A196B21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+HEURLQueryItem.h"; sourceTree = "<group>"; };
 		091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+HEURLQueryItem.m"; sourceTree = "<group>"; };
+		091A197021F72F80003F5443 /* NSFoundation+HExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFoundation+HExtensions.h"; sourceTree = "<group>"; };
 		092309941F90C5830088A1A9 /* UIImage+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CALayer.h"; sourceTree = "<group>"; };
 		092309951F90C5830088A1A9 /* UIImage+CALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CALayer.m"; sourceTree = "<group>"; };
 		092B0F4021F65C170005A670 /* NSDictionary+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Networking.h"; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 			children = (
 				092B0F4021F65C170005A670 /* NSDictionary+Networking.h */,
 				092B0F4121F65C170005A670 /* NSDictionary+Networking.m */,
+				091A197021F72F80003F5443 /* NSFoundation+HExtensions.h */,
 				092B0F4321F65C350005A670 /* NSString+HExtensions.h */,
 				092B0F4421F65C350005A670 /* NSString+HExtensions.m */,
 				091A196B21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.h */,

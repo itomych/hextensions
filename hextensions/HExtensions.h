@@ -6,6 +6,6 @@
 //  Copyright (c) 2015 How Else. All rights reserved.
 //
 
-#import "UIKit+HExtensions.h"
-
 #import "NSDictionary+Networking.h"
+#import "NSFoundation+HExtensions.h"
+#import "UIKit+HExtensions.h"

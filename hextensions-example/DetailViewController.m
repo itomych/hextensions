@@ -7,8 +7,7 @@
 //
 
 #import "DetailViewController.h"
-
-#import "UIKit+HExtensions.h"
+#import "HExtensions.h"
 
 @interface DetailViewController ()
 
@@ -18,13 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self.roundedButton setBackgroundImage:[UIImage he_resizableImageWithColor:[UIColor brownColor] cornerRadius:5.0] forState:UIControlStateNormal];
 }
 
 - (IBAction)replaceButtonTapped:(UIBarButtonItem *)button {
     UIViewController *controller = [[UIViewController alloc] init];
-    controller.title = @"New View Controller";
+    controller.title = [@"1234567812345678" he_stringByInsertingSeparator:@" " withInterval:4];
     controller.view.backgroundColor = [UIColor redColor];
     [self.navigationController he_setTopViewController:controller animated:YES];
 }

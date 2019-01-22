@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'hextensions'
-    spec.version        = '2.3'
+    spec.version        = '2.4'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
     spec.homepage       = 'https://bitbucket.org/itomych'
@@ -72,7 +72,13 @@ Pod::Spec.new do |spec|
     end
 
     spec.subspec 'NSFoundation+Networking' do |subspec|
-        subspec.source_files = 'hextensions/NSFoundation+Networking/*.{h,m}'
-        subspec.public_header_files = 'hextensions/NSFoundation+Networking/*.h'
+        subspec.source_files = 'hextensions/NSFoundation+HExtensions/NSDictionary+Networking.{h,m}'
+        subspec.public_header_files = 'hextensions/NSFoundation+HExtensions/NSDictionary+Networking.h'
+    end
+
+    spec.subspec 'NSFoundation+HExtensions' do |subspec|
+        subspec.source_files = 'hextensions/NSFoundation+HExtensions/*.{h,m}'
+        subspec.public_header_files = 'hextensions/NSFoundation+HExtensions/*.h'
+        subspec.exclude_files = 'hextensions/NSFoundation+HExtensions/NSDictionary+Networking.{h,m}'
     end
 end
