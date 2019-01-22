@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091A196D21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */; };
 		092B0F4221F65C170005A670 /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B0F4121F65C170005A670 /* NSDictionary+Networking.m */; };
 		092B0F4521F65C350005A670 /* NSString+HExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B0F4421F65C350005A670 /* NSString+HExtensions.m */; };
 		092F31751AB1ED8F007151DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31741AB1ED8F007151DD /* main.m */; };
@@ -62,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		091A196B21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+HEURLQueryItem.h"; sourceTree = "<group>"; };
+		091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+HEURLQueryItem.m"; sourceTree = "<group>"; };
 		092309941F90C5830088A1A9 /* UIImage+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CALayer.h"; sourceTree = "<group>"; };
 		092309951F90C5830088A1A9 /* UIImage+CALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CALayer.m"; sourceTree = "<group>"; };
 		092B0F4021F65C170005A670 /* NSDictionary+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Networking.h"; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				092B0F4121F65C170005A670 /* NSDictionary+Networking.m */,
 				092B0F4321F65C350005A670 /* NSString+HExtensions.h */,
 				092B0F4421F65C350005A670 /* NSString+HExtensions.m */,
+				091A196B21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.h */,
+				091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */,
 			);
 			path = "NSFoundation+HExtensions";
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				092B0F4221F65C170005A670 /* NSDictionary+Networking.m in Sources */,
 				098A9813215D236600D22E8A /* UIView+HENib.m in Sources */,
 				098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */,
+				091A196D21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m in Sources */,
 				09F5A2A521E8C11600153AD3 /* UITextField+HECursor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
