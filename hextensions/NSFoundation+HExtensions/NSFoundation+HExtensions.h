@@ -6,5 +6,6 @@
 //  Copyright © 2019 How Else. All rights reserved.
 //
 
+#import "NSFileManager+HECachesDirectory.h"
 #import "NSString+HExtensions.h"
 #import "NSURLComponents+HEURLQueryItem.h"
