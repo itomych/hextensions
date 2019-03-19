@@ -20,6 +20,7 @@
 		092F31B11AB1F5C0007151DD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31B01AB1F5C0007151DD /* DetailViewController.m */; };
 		0955F8EB1AB31E2D00D66130 /* AppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8EA1AB31E2D00D66130 /* AppAppearance.m */; };
 		095650AC2224237100C4D033 /* NSFileManager+HECachesDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 095650AB2224237100C4D033 /* NSFileManager+HECachesDirectory.m */; };
+		0958F2F52241716200AA8A48 /* UITabBarController+HENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0958F2F42241716200AA8A48 /* UITabBarController+HENavigationController.m */; };
 		098A980D215D236600D22E8A /* UIImage+CALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 092309951F90C5830088A1A9 /* UIImage+CALayer.m */; };
 		098A980E215D236600D22E8A /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955F8E51AB3133400D66130 /* UIImage+UIColor.m */; };
 		098A980F215D236600D22E8A /* UINavigationController+HExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31A11AB1F029007151DD /* UINavigationController+HExtension.m */; };
@@ -105,6 +106,8 @@
 		0955F8EA1AB31E2D00D66130 /* AppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAppearance.m; sourceTree = "<group>"; };
 		095650AA2224237100C4D033 /* NSFileManager+HECachesDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+HECachesDirectory.h"; sourceTree = "<group>"; };
 		095650AB2224237100C4D033 /* NSFileManager+HECachesDirectory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+HECachesDirectory.m"; sourceTree = "<group>"; };
+		0958F2F32241716200AA8A48 /* UITabBarController+HENavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+HENavigationController.h"; sourceTree = "<group>"; };
+		0958F2F42241716200AA8A48 /* UITabBarController+HENavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+HENavigationController.m"; sourceTree = "<group>"; };
 		098A9804215D229700D22E8A /* libhextensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhextensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B197311E3F5A9500530348 /* UIWebView+HEJavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HEJavaScriptContext.h"; sourceTree = "<group>"; };
 		09B197321E3F5A9500530348 /* UIWebView+HEJavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HEJavaScriptContext.m"; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 				0955F8E51AB3133400D66130 /* UIImage+UIColor.m */,
 				092F31A01AB1F029007151DD /* UINavigationController+HExtension.h */,
 				092F31A11AB1F029007151DD /* UINavigationController+HExtension.m */,
+				0958F2F32241716200AA8A48 /* UITabBarController+HENavigationController.h */,
+				0958F2F42241716200AA8A48 /* UITabBarController+HENavigationController.m */,
 				092F31A21AB1F029007151DD /* UITableView+HElection.h */,
 				092F31A31AB1F029007151DD /* UITableView+HElection.m */,
 				092F31AA1AB1F1B8007151DD /* UITableViewCell+IOS8DetailCellFix.h */,
@@ -421,6 +426,7 @@
 				092B0F4221F65C170005A670 /* NSDictionary+Networking.m in Sources */,
 				098A9813215D236600D22E8A /* UIView+HENib.m in Sources */,
 				098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */,
+				0958F2F52241716200AA8A48 /* UITabBarController+HENavigationController.m in Sources */,
 				095650AC2224237100C4D033 /* NSFileManager+HECachesDirectory.m in Sources */,
 				091A196D21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m in Sources */,
 				09F5A2A521E8C11600153AD3 /* UITextField+HECursor.m in Sources */,
