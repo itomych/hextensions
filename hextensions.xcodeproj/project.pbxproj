@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		091A196D21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */; };
+		091EE1382243E20C0061FEE4 /* NSData+HEHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EE1372243E20C0061FEE4 /* NSData+HEHex.m */; };
 		092B0F4221F65C170005A670 /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B0F4121F65C170005A670 /* NSDictionary+Networking.m */; };
 		092B0F4521F65C350005A670 /* NSString+HExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B0F4421F65C350005A670 /* NSString+HExtensions.m */; };
 		092F31751AB1ED8F007151DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F31741AB1ED8F007151DD /* main.m */; };
@@ -68,6 +69,8 @@
 		091A196B21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+HEURLQueryItem.h"; sourceTree = "<group>"; };
 		091A196C21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+HEURLQueryItem.m"; sourceTree = "<group>"; };
 		091A197021F72F80003F5443 /* NSFoundation+HExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFoundation+HExtensions.h"; sourceTree = "<group>"; };
+		091EE1362243E20C0061FEE4 /* NSData+HEHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HEHex.h"; sourceTree = "<group>"; };
+		091EE1372243E20C0061FEE4 /* NSData+HEHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HEHex.m"; sourceTree = "<group>"; };
 		092309941F90C5830088A1A9 /* UIImage+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CALayer.h"; sourceTree = "<group>"; };
 		092309951F90C5830088A1A9 /* UIImage+CALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CALayer.m"; sourceTree = "<group>"; };
 		092B0F4021F65C170005A670 /* NSDictionary+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Networking.h"; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 		092B0F3F21F65C170005A670 /* NSFoundation+HExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				091EE1362243E20C0061FEE4 /* NSData+HEHex.h */,
+				091EE1372243E20C0061FEE4 /* NSData+HEHex.m */,
 				092B0F4021F65C170005A670 /* NSDictionary+Networking.h */,
 				092B0F4121F65C170005A670 /* NSDictionary+Networking.m */,
 				095650AA2224237100C4D033 /* NSFileManager+HECachesDirectory.h */,
@@ -426,6 +431,7 @@
 				092B0F4221F65C170005A670 /* NSDictionary+Networking.m in Sources */,
 				098A9813215D236600D22E8A /* UIView+HENib.m in Sources */,
 				098A9814215D236600D22E8A /* UIWebView+HEJavaScriptContext.m in Sources */,
+				091EE1382243E20C0061FEE4 /* NSData+HEHex.m in Sources */,
 				0958F2F52241716200AA8A48 /* UITabBarController+HENavigationController.m in Sources */,
 				095650AC2224237100C4D033 /* NSFileManager+HECachesDirectory.m in Sources */,
 				091A196D21F72ABD003F5443 /* NSURLComponents+HEURLQueryItem.m in Sources */,

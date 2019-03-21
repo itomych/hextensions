@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'hextensions'
-    spec.version        = '2.6'
+    spec.version        = '2.7'
     spec.license        = 'MIT'
     spec.summary        = 'Foundation/UIKit extensions'
     spec.homepage       = 'https://bitbucket.org/itomych'
